@@ -1,11 +1,12 @@
 .container{
     background-color:#222222;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .logoContent{
@@ -16,7 +17,7 @@
 }
 
 .todoProject{
-    max-width: 480px;
+    max-width: 280px;
     object-fit: contain;
     width: auto;
     height: auto;
@@ -29,3 +30,46 @@
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
 }
 
+.infoContent{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.box{
+    background-color: #fefbff;
+    padding: 15px;
+    border-radius:5px ;
+    transition: transform 0.5s;
+   
+}
+.box:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.plus{
+    font-size: 1.7rem;
+    font-weight: 800;
+    color:#6463e3;
+    filter: drop-shadow(1px 1px 1px #000000);
+    padding:5px;
+}
+
+@media screen and (max-width: 580px){
+    .todoProject{
+        max-width: 80%;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .infoContent{
+        flex-direction: column;
+    }
+    .box{
+        width: 80%;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+}

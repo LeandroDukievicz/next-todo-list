@@ -23,7 +23,15 @@ export default function Home(){
           <h1 className={styles.title}>
             Projeto simples para você organizar <br /> Suas tarefas e estudos !
           </h1>
-          
+
+          <div className={styles.infoContent}>
+            <section className={styles.box}>
+              <span className={styles.plus}>+</span><span>17 Posts</span>
+            </section>
+            <section className={styles.box}>
+            <span className={styles.plus}>+</span><span>53 Comentários</span>
+            </section>
+          </div>
         </div>
       </main>
     </section>
