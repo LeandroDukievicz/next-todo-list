@@ -1,0 +1,80 @@
+
+
+.header{
+    width: 100vw;
+    height:75px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content{
+    padding:0 18px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.logo{
+    color: #fefbff;
+    font-size: 2rem;
+}
+
+.logo span{
+    color:#6463e3;
+    font-size: 3rem;
+    padding:4px;
+}
+
+.loginButton { 
+    background-color: transparent;
+    padding: 8px 32px;
+    border-radius: 24px;
+    color:#fefbff;
+    border:2px outset #fefbff;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.loginButton:hover{
+    transform: scale(1.07);
+    background-color: #fefbff;
+    color:#222222;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px #d5d5d5);
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.myPanel{
+    padding: 8px 32px;
+    border-radius: 6px;
+    margin: 0 20px;
+    color:#fefbff;
+    border:2px solid #fefbff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.myPanel:hover{
+    color:#6463e3;
+    border: 2px solid #6463e3;
+    filter: drop-shadow(1px 1px 1px #6463e3);
+    letter-spacing: 1px;
+}
+
+
