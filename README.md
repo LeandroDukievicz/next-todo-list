@@ -2,3 +2,5 @@
 
 # This project is to practice the framework next js
 
+### up
+
