@@ -13,8 +13,7 @@ export function Header(){
                         </h1>
                     </Link>
                     
-                    <Link className={styles.myPanel} 
-                                    href="/dashboard">
+                    <Link className={styles.myPanel} href="/dashboard">
                                     Meu Painel
                     </Link>
                 

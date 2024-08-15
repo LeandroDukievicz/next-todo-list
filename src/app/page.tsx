@@ -8,7 +8,7 @@ export default function Home(){
   return(
     <section className={styles.container}>
       <Head>
-        <title>Projeto To Do List - Organizando tarefas de forma fácil
+        <title>To Do List
         </title>
       </Head>
 
