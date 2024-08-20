@@ -29,7 +29,8 @@ export function Header(){
                     <></>
                 ) : session ? (
                     <button className={styles.loginButton} onClick={ ()=> signOut()}>
-                        Olá {session?.user?.name}
+                        Olá,  {session?.user?.name}
+                        
                     </button>
                 ): (
                     <button className={styles.loginButton} onClick={ ()=> signIn("google")}>
