@@ -19,10 +19,11 @@ export function Header(){
                         </h1>
                     </Link>
                     
-                    <Link className={styles.myPanel} href="/dashboard">
-                                    Meu Painel
-                    </Link>
-                
+                    {session?.user && (
+                        <Link className={styles.myPanel} href="/dashboard">
+                            Meu Painel
+                        </Link>
+                    )}
                 </nav>
                 
                 { status ==="loading" ? (

@@ -29,7 +29,7 @@ export default function Home(){
               <span className={styles.plus}>+</span><span>17 Posts</span>
             </section>
             <section className={styles.box}>
-            <span className={styles.plus}>+</span><span>53 Comentários</span>
+              <span className={styles.plus}>+</span><span>53 Comentários</span>
             </section>
           </div>
         </div>
