@@ -4,17 +4,12 @@ import "../../styles/globals.css";
 import { Header } from "../components/header/page";
 import ClientWrapper from "../components/clientWrapper/page";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Projeto To Do",
   description: "Projeto desenvolvido para aprimorar conhecimento no framework Next.js",
 };
-
-
-
-
 
 export default function RootLayout({
   children,

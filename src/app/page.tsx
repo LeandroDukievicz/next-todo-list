@@ -8,7 +8,8 @@ export default function Home(){
   return(
     <section className={styles.container}>
       <Head>
-        <title>To Do List
+        <title>
+          To Do List
         </title>
       </Head>
 
